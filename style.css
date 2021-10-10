@@ -5,6 +5,31 @@
 }
 
 body {
+  background-color: #7BDAF3;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notes {
+  background-color: #fff;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+}
+
+.notes .tools {
+  background-color: #9ec862;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notes .tools button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0.5rem;
 }
